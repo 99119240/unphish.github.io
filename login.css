@@ -1,0 +1,349 @@
+@import url("sharedLogin.css");
+
+body{
+	background-color: #92c83e; 
+	text-align: center;
+}
+.logocontainer{
+	background-color: transparent;
+	max-width: 650px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.logo{
+	width: 42%;
+	max-width: 182px;
+	float: left;
+}
+
+.statement{
+	width: 45%;
+	max-width: 195px;
+	float: right;
+}
+
+.frmcontainer{
+	background-color: #ffffff;
+	box-shadow: -4px 4px 2px #7FA72D;
+	max-width: 650px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto
+}
+
+.frmcontainer2{
+	background-color: #ffffff;
+	box-shadow: -4px 4px 2px #7FA72D;
+	max-width: 650px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto
+}
+.notice{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family: Arial;
+	font-size: 10pt;
+	color: #333333;
+	padding-left:20px;
+	text-align:left;
+}
+.appinfo{
+	background-color: transparent;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Arial;
+	font-size: 10px;
+	color: white;
+}
+.appinfo a{
+	font-family: Arial;
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+}
+.appinfo .appserver{
+	font-family: Arial;
+	font-size: 10px;
+	color: #92c83e;
+}
+/* specify selection color for mac safari */
+.appinfo div::selection, a::selection {
+	color: white;
+	background: #1371b9;
+}
+#form_signin, .passwordForm {
+	text-align: left;
+	padding: 25px 25px 0 25px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 520px) {
+	#form_signin {
+		padding-top: 65px;
+	}
+}
+
+.passwordreset{
+	text-align:left;
+	font-family:Arial;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left:25px;
+	margin-right:25px;
+
+}
+label{line-height: 18px; vertical-align:middle;}
+.captcha{
+	padding: 0px; 
+	width: 164px; 
+	height: 22px; 
+	margin: 2px;
+}
+
+.editionbox{
+	float: right;
+	vertical-align: top;
+	position: relative;
+	text-align: right; 
+	top: -18px; 
+	right: -11.2px; 
+}
+.securitylabel{
+	font-family: Arial;
+	font-size: 12px;
+	color: #f26126;
+	padding: 4px;		
+}
+.versionmsgtd{
+	padding-right: 15px;
+}
+.versionmsg{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #f26126;		
+	padding: 4px;		
+}
+.fillertd{
+	width:40px;
+}
+.lefteditionbox{
+	background-image: url('../images/login/orangebox_left.png'); 
+	background-repeat: no-repeat; 
+	width:24.2px;
+	height:37px;
+	margin: 0; 
+	padding: 0; 
+}
+.centereditionbox{
+	background-image: url('../images/login/orangebox_center.png'); 
+	background-repeat: repeat-x;
+	text-align: right; 
+	height: 37px;
+	min-width: 10px;
+	padding-right: 15px;
+	margin: 0; 
+	display: block;
+}
+.righteditionbox{
+	background-image: url('../images/login/orangebox_right.png'); 
+	background-repeat: no-repeat; 
+	width:11px;
+	height:48px;
+	margin: 0; 
+	padding: 0; 
+}
+.editiontext{
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	line-height: 34px;
+}
+.captcha-help {
+	max-width: 200px;
+}
+.contacttext{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+/* captcha styling*/
+#cwrapper{
+	width: 199px; 
+	height: 102px; 
+	border: 1px solid #adadaf;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 2px 0 2px 0;
+}
+.captchasignin{
+	padding: 10px;
+}
+
+#piv-modal {
+	font-family: "Roboto","Helvetica Neue","Helvetica",arial,sans-serif;
+	font-size: 14px;
+	position: relative;
+	max-height: 450px;
+	padding: 20px;
+	max-width: 400px;
+	background-color: white;
+	border-radius: 4px;
+	overflow-y: auto;
+}
+
+#access-modal-container, #piv-modal-container {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	padding: 0 10px;
+	background: rgba(0, 0, 0, 0.2);
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+
+#access-modal {
+	font-family: "Roboto","Helvetica Neue","Helvetica",arial,sans-serif;
+	font-size: 14px;
+	position: relative;
+	max-height: 450px;
+	padding: 20px;
+	max-width: 400px;
+	background-color: white;
+	border-radius: 4px;
+	overflow-y: auto;
+}
+
+#access-modal-header, #piv-modal-header {
+	text-align:center;
+	margin-bottom: 10px;
+
+}
+
+.modal-button {
+	display:inline-block;
+	color:#555;
+	text-decoration:none !important;
+	font-size:12px;
+	background:#FFF;
+	font-weight:500 !important;
+	padding:10px 15px 13px;
+	margin-bottom: 10px;
+	line-height:1;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border:none;
+	border:1px solid #D2D2D2;
+	cursor:pointer;
+	font-family:"Roboto","Helvetica Neue","Helvetica",arial,sans-serif;
+	-webkit-appearance:none
+}
+
+.modal-button:hover {
+	color:#333;
+	background:#F2F2F2
+}
+
+#cimagectn{
+	width:auto; 
+	height:auto; 
+	margin:0; 
+	padding:0; 
+	float:left;
+}
+#cinputctn{
+	width:166px; 
+	height:26px; 
+	margin:0; 
+	padding:0; 
+	float:left;
+}
+#cinput{
+	padding:0; 
+	width:162px; 
+	height:22px;
+	margin: 2px;
+}
+#creload{
+	width:26px; 
+	height:26px; 
+	margin:0; 
+	margin-right:4px; 
+	padding:0; 
+	float:left;
+}
+#reloadimg{
+	text-align:right; 
+	margin:2px; 
+	padding:0;
+}
+
+#usernamebox, #passwordbox{
+	padding-top:10px;
+}
+.passwordResetInput {
+    width: 256px;
+    height: 22px;
+}
+
+.msgPadding {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.msgFont {
+	font-family: Arial;
+}
+
+h2{
+	position:relative;
+	z-index:2;
+}
+h2:after{
+	content:"";
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	border-top:solid 1px black;
+	z-index:-1;
+}
+
+#helpbox p {
+	margin: 0em;
+}
+
+/* layout css */
+.container{margin: 10px 0 10px 0;}
+.span8{max-width: 600px;}
+.span4{width: 300px;}
+.span2{width: 250px;}
+.floatleft{float: left;}
+.floatright{float: right;}
+.clear{margin-top: 10px; clear: both;}
+.alignright{text-align: right;}
+.alignleft{text-align:left;}
+.loginhr{margin-top: 15px; margin-left:25px; margin-right:25px; border: 0; height: 1px;background-color: #adadaf;}
+
+@media only screen and (min-width: 521px) and (max-width: 1010px) {
+	.logocontainer {
+		margin-top: 20px;
+	}
+}
