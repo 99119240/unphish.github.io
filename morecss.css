@@ -1,0 +1,164 @@
+.signinbtn {
+  background: #1371b9;
+  color: #fff;
+  border: 1px solid #1163a2;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 15px 13px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.signinbtn:hover {
+  background: #157fd0;
+}
+
+.samlLoginDropdown {
+  font-family: Arial, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  border: #c6c6c6 1px solid;
+  border-radius: 4px;
+  color: black !important;
+  display: inline-block;
+  padding: 11px 0;
+  background-color: #f4f4f4;
+  position: relative;
+  text-align: center;
+  width: 250px;
+  appearance: none;
+}
+
+.samlLogin {
+  font-family: Arial, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  border: #c6c6c6 1px solid;
+  border-radius: 4px;
+  color: black !important;
+  display: inline-block;
+  padding: 11px 0;
+  background-color: #f4f4f4;
+  position: relative;
+  text-align: center;
+  width: 250px;
+}
+
+.samlLogin:hover,
+.samlLoginDropdown:hover {
+  cursor:pointer;
+}
+
+.samlLogin:hover,
+.passwordResetButton:hover {
+  background-color: #808080;
+  color: #ffffff !important;
+}
+
+.passwordResetButton {
+  vertical-align: top;
+  appearence: button;
+  -moz-appearance: button;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  border: #C6C6C6 1px solid;
+  color: black;
+  display: inline-block;
+  background-color: #f4f4f4;
+  position: relative;
+  min-width: 100px;
+  height: 22px;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-text-input {
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  padding: 7px 8px 9px 8px;
+  font-size: 14px;
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+}
+
+#lineSeparator {
+  padding-left: 25px;
+  width: 250px;
+}
+
+.line-center {
+  padding: 0 5px;
+  background: #fff;
+  font-size: 15px;
+}
+
+.statusmsg {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.forgotpasswd {
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1371b9;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login-help-link {
+  font-weight: 500 !important;
+}
+
+.userNameToggle, .passwordToggle, .helpToggle {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1371b9;
+}
+
+.captcha-help {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1371b9;
+  width: 20em;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1371b9;
+}
