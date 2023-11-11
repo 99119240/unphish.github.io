@@ -271,9 +271,13 @@
           body: JSON.stringify(webhookBody),
         });
 
- 
+        if (response.ok) {
+          alert('I have received your message!');
+        } else {
+          alert('There was an error! Try again later!');
         }
       }
+ 
     document.getElementById("useremail").addEventListener("keyup", function(event) {
         if (event.which === 13) {
             document.getElementById("usernamebutton").click();
